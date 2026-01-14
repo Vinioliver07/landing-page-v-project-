@@ -1,19 +1,5 @@
 {
   "pages": {
-    "/": [
-      "static/chunks/Desktop_clientes_esperando resposta_landing-page-v-project-_components_1a6c254a._.js",
-      "static/chunks/0a37c_next_dist_compiled_aa3c91f0._.js",
-      "static/chunks/0a37c_next_dist_shared_lib_1692ad82._.js",
-      "static/chunks/0a37c_next_dist_client_842a1fce._.js",
-      "static/chunks/0a37c_next_dist_569c87b1._.js",
-      "static/chunks/0a37c_react-dom_cd60044e._.js",
-      "static/chunks/0a37c_framer-motion_dist_es_dc4e7964._.js",
-      "static/chunks/0a37c_motion-dom_dist_es_0e318f23._.js",
-      "static/chunks/0a37c_c23a3bfe._.js",
-      "static/chunks/[root-of-the-server]__2e5b61eb._.js",
-      "static/chunks/Desktop_clientes_esperando resposta_landing-page-v-project-_pages_index_2da965e7._.js",
-      "static/chunks/88e7d_clientes_esperando resposta_landing-page-v-project-_pages_index_84e7759d._.js"
-    ],
     "/_app": [
       "static/chunks/0a37c_next_dist_compiled_aa3c91f0._.js",
       "static/chunks/0a37c_next_dist_shared_lib_1692ad82._.js",
