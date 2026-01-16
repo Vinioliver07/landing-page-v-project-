@@ -8,7 +8,7 @@ export const Solutions: React.FC = () => {
   return (
     <section id="solutions" className="py-32 relative bg-zinc-950">
       <div className="container mx-auto px-6">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -45,7 +45,7 @@ export const Solutions: React.FC = () => {
                     </li>
                   ))}
                 </ul>
-                <CTAButton variant="ghost" className="w-full text-[10px] py-3" href="https://wa.me/your-number">
+                <CTAButton variant="ghost" className="w-full text-[10px] py-3" href="https://wa.me/5537996704294">
                   CONSULTAR DISPONIBILIDADE
                 </CTAButton>
               </div>

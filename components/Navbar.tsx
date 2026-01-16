@@ -20,12 +20,12 @@ export const Navbar: React.FC = () => {
           </div>
           <span className="text-xl font-black font-outfit tracking-tighter">PROJECT</span>
         </div>
-        
+
         <div className="hidden md:flex items-center space-x-12 text-[11px] font-mono uppercase tracking-[0.2em] text-zinc-500">
           <a href="#solutions" className="hover:text-cyan-400 transition-colors">/soluções</a>
           <a href="#why" className="hover:text-cyan-400 transition-colors">/autoridade</a>
           <a href="#portfolio" className="hover:text-cyan-400 transition-colors">/cases</a>
-          <a href="https://wa.me/your-number" target="_blank" className="text-cyan-400 font-bold border-b border-cyan-500/30 pb-1 hover:border-cyan-500 transition-all">
+          <a href="https://wa.me/5537996704294" target="_blank" className="text-cyan-400 font-bold border-b border-cyan-500/30 pb-1 hover:border-cyan-500 transition-all">
             FALAR_COM_VINICIUS
           </a>
         </div>

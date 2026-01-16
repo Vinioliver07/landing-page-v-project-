@@ -6,7 +6,7 @@ import { CodeTerminal } from './ui/CodeTerminal';
 
 export const Hero: React.FC = () => {
   const targetRef = useRef<HTMLElement>(null);
-  
+
   // Captura o progresso do scroll especificamente para esta seção
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   return (
-    <section 
+    <section
       ref={targetRef}
       className="relative min-h-screen flex items-center pt-24 overflow-hidden tech-gradient"
     >
@@ -34,22 +34,22 @@ export const Hero: React.FC = () => {
         >
           <div className="font-mono text-cyan-500 text-sm mb-6 flex items-center">
             <span className="opacity-50 mr-2">01.</span>
-            <span>import { '{ Performance }' } from 'v-project'</span>
+            <span>import {'{ Performance }'} from 'v-project'</span>
           </div>
-          
+
           <h1 className="text-5xl md:text-7xl font-extrabold font-outfit leading-[1.1] mb-8 tracking-tighter">
             Transforme sua visão em <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">
               Autoridade Digital.
             </span>
           </h1>
-          
+
           <p className="text-xl text-zinc-400 mb-12 max-w-xl leading-relaxed font-light">
             Construímos ativos digitais de alta performance onde a engenharia de ponta encontra o design estratégico para acelerar seu faturamento.
           </p>
-          
+
           <div className="flex flex-wrap gap-6">
-            <CTAButton href="https://wa.me/your-number">Bora estruturar seu projeto?</CTAButton>
+            <CTAButton href="https://wa.me/5537996704294">Bora estruturar seu projeto?</CTAButton>
             <CTAButton variant="secondary" href="#portfolio">Conhecer o trabalho</CTAButton>
           </div>
         </motion.div>
@@ -62,7 +62,7 @@ export const Hero: React.FC = () => {
           className="relative group z-0"
         >
           {/* Efeito de brilho de fundo que também reage ao scroll de forma suave */}
-          <motion.div 
+          <motion.div
             style={{ scale: useTransform(scrollYProgress, [0, 1], [1, 1.2]) }}
             className="absolute -inset-4 bg-cyan-500/10 rounded-full blur-3xl opacity-50 group-hover:opacity-100 transition duration-1000"
           ></motion.div>
@@ -71,7 +71,7 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* Indicador visual de scroll para guiar o usuário */}
-      <motion.div 
+      <motion.div
         style={{ opacity }}
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
